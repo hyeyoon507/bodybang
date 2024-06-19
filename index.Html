@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>team &lt;body&gt;&lt;&#47;bang&gt;</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Find Your Style</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#map">Map</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="intro">
+            <h1>&lt;body&gt;&lt;&#47;bang&gt;</h1>
+            <audio id="background-music" loop>
+                <source src="music.mp3" type="audio/mpeg">
+            </audio>
+
+            <button class="audio-control-button" onclick="document.getElementById('background-music').play()">
+                <img src="play1.png" alt="재생">
+            </button>
+
+            <button class="audio-control-button" onclick="document.getElementById('background-music').pause()">
+                <img src="Stop1.png" alt="멈춤">
+            </button>
+        </div>
+        
+    </header>
+    <main>
+        <section id="home">
+            <img src="FPC_Remove.png" alt="팀사진">
+            <button id="startButton" onclick="window.open('Choose.html','_blank');">Start</button>
+        </section>
+        <section id="about">
+            <h2>￮ 퍼스널 컬러란?</h2>
+            <p><span class="highlight">퍼스널 컬러</span>는 각 개인의 피부 톤과 머리색, 눈색 등을 고려하여 어울리는 색조를 찾아내는 개념입니다.<br>각 개인의 <span class="highlight">퍼스널 컬러</span>를 알면 옷, 메이크업 등을 선택할 때 더 어울리는 색상을 고를 수 있습니다.</P> 
+
+        
+            <div class="gallery">
+                <div class="image">
+                    <img src="봄.jpg" alt="퍼스널 컬러 1">
+                    <p>봄 웜</p>
+                </div>
+                <div class="image">
+                    <img src="여름.jpg" alt="퍼스널 컬러 2">
+                    <p>여름 쿨</p>
+                </div>
+                <div class="image">
+                    <img src="가을.jpg" alt="퍼스널 컬러 3">
+                    <p>가을 웜</p>
+                </div>
+                <div class="image">
+                    <img src="겨울.jpg" alt="퍼스널 컬러 4">
+                    <p>겨울 쿨</p>
+                </div>
+            </div>
+            <section id="video">
+                <h2>※ 참고영상</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oaryH-CWE40?si=XFqVZgOrLSfQqJbx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+            <h2>￮ &lt;body&gt;&lt;&#47;bang&gt;의 역할?</h2>
+            <p>&lt;body&gt;&lt;&#47;bang&gt;은 본인의 '퍼스널컬러'가 무엇인지는 알지만<br><span class="highlight">이에 맞는 스타일을 적용시키지 못하는 이들</span>을 위해 고안되었습니다.</p>
+            <h1>▷ &lt;body&gt;&lt;&#47;bang&gt;과 함께 스타일을 찾으세요 ! ◁</h1>
+        </section>
+        <section id="profile">
+            <h2>￮ Profile</h2>
+            <div class="team-member">
+                <div class="member">
+                    <div class="profile-img">
+                        <img src="혜윤.png" alt="팀원 1">
+                    </div>
+                    <h3>Hyeyoon Kim</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>2018</h4>
+                            <p>- 지산중학교 졸업</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2021</h4>
+                            <p>- 운정고등학교 졸업</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2023~</h4>
+                            <p>- 중앙대학교 재학</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="profile-img">
+                        <img src="은현.png" alt="팀원 2">
+                    </div>
+                    <h3>Eunhyun Seo</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>2017</h4>
+                            <p>- 등명중학교 졸업</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2020</h4>
+                            <p>- 명덕여자고등학교 졸업</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>2023~</h4>
+                            <p>- 중앙대학교 재학</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>￮ Contact</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">이름:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">이메일:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="privacy">개인정보 활용 동의:</label>
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                </div>
+                <div class="form-group">
+                    <label for="comments">코멘트:</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+                <button type="submit">제출</button>
+            </form>
+        </section>
+        
+        
+        <section id="map">
+            <h2>￮ 찾아오시는 길</h2>
+            <p>위치는 아래 지도를 참고해주세요.</p>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.452110978705!2d127.04120964068474!3d37.544410672160765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46e21c25855%3A0xb969fc2b68758946!2sSM%20ENTERTAINMENT!5e0!3m2!1sko!2skr!4v1718456307343!5m2!1sko!2skr" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-link">
+                <a href="https://www.instagram.com/myey0_0n/" target="_blank">
+                    <img src="instagram_icon.png" alt="Instagram">
+                    <p>김혜윤 인스타그램</p>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href="https://www.instagram.com/rlo._.vely/" target="_blank">
+                    <img src="instagram_icon.png" alt="Instagram">
+                    <p>서은현 인스타그램</p>
+                </a>
+            </div>
+            <div class="company-info">
+                <p>서울특별시 성동구 왕십리로 83-21</p>
+                <p>Tel : 010-7673-2750, 010-3273-8575</p>
+                <p>개인정보처리방침</p>
+            </div>
+            <div class="logo">
+                <img src="FPC_Remove.png" alt="Company Logo">
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            alert('제출 완료되었습니다!');
+            this.reset();
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+    const intro = document.querySelector('.intro');
+    const introBottom = intro.offsetTop + intro.offsetHeight;
+    const container = document.querySelector('.container');
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY >= introBottom) {
+            container.style.backgroundColor = 'rgba(51, 51, 51, 0.9)';
+        } else {
+            container.style.backgroundColor = '#f3a0a5';
+        }
+    });
+
+    });               
+        
+    </script>
+
+    
+</body>
+</html>
